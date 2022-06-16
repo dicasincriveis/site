@@ -1,0 +1,1 @@
+document.write("<h1>Sejam bem vindos!!!</h1><p> Tenham um bom dia.</p>");
