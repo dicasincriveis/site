@@ -2,6 +2,8 @@ var url_atual = window.location.href;
 document.write(url_atual);
 if (url_atual.toLowerCase().includes('viagem')) {
     document.write('<script src="https://dicasincriveis.github.io/site/viagem.js"></script>')
+} else if (url_atual.toLowerCase().includes('viagens')) {
+    document.write('<script src="https://dicasincriveis.github.io/site/viagem.js"></script>')
 } else if (url_atual.toLowerCase().includes('finanças')) {
     document.write('<script src="https://dicasincriveis.github.io/site/financas.js"></script>')
 } else if (url_atual.toLowerCase().includes('casa')) {
@@ -9,7 +11,7 @@ if (url_atual.toLowerCase().includes('viagem')) {
 } else if (url_atual.toLowerCase().includes('trabalho')) {
     document.write('<script src="https://dicasincriveis.github.io/site/trabalho.js"></script>')
 } else if (url_atual.toLowerCase().includes('relacionamentos')) {
-    document.write('<script src="https://dicasincriveis.github.io/site/relacionamentos.js"></script>')
+    document.write('<script src="https://dicasincriveis.github.io/site/relacionamento.js"></script>')
 } else if (url_atual.toLowerCase().includes('saude')) {
     document.write('<script src="https://dicasincriveis.github.io/site/saude.js"></script>')
 } else if (url_atual.toLowerCase().includes('saúde')) {
