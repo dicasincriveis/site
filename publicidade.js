@@ -5,6 +5,8 @@ if (url_atual.toLowerCase().includes('viagem')) {
     document.write('<script src="https://dicasincriveis.github.io/site/viagem.js"></script>')
 } else if (url_atual.toLowerCase().includes('finanças')) {
     document.write('<script src="https://dicasincriveis.github.io/site/financas.js"></script>')
+} else if (url_atual.toLowerCase().includes('financas')) {
+    document.write('<script src="https://dicasincriveis.github.io/site/financas.js"></script>')
 } else if (url_atual.toLowerCase().includes('casa')) {
     document.write('<script src="https://dicasincriveis.github.io/site/casa.js"></script>')
 } else if (url_atual.toLowerCase().includes('trabalho')) {
