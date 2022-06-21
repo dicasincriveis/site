@@ -1,5 +1,4 @@
 var url_atual = window.location.href;
-document.write(url_atual);
 if (url_atual.toLowerCase().includes('viagem')) {
     document.write('<script src="https://dicasincriveis.github.io/site/viagem.js"></script>')
 } else if (url_atual.toLowerCase().includes('viagens')) {
