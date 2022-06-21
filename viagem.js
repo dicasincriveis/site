@@ -1,1 +1,1 @@
-document.write("Geral")
+document.write("Viagem")
