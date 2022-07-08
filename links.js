@@ -1,3 +1,1 @@
-<script>
-teste teste teste
-</script>
+document.write("teste")
