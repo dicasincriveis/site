@@ -1,5 +1,11 @@
-$(document).ready(function() {
-  $("p, div, span, li").each(function() {
-   this.text(this.text().replace("relacionamentos", "TESTE").replace("word2", "new word2"));
-  });
-});
+function replaceText(){
+    var theDiv = document.getElementById("myDiv");
+    var theText = theDiv .innerHTML;
+
+    // Replace words
+    theText = theText.replace("relacionamentos", "TESTE");
+    theText = theText.replace("one", "fish");
+    theText = theText.replace("tom", "drum");
+
+    theDiv.innerHTML = theText;
+}
