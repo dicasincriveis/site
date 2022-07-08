@@ -1,2 +1,2 @@
-let text = document.getElementById("header-blog").innerHTML; 
-document.getElementById("header-blog").innerHTML = text.replace("relacionamentos", "W3Schools");
+let text = document.getElementById("Blog1").innerHTML; 
+document.getElementById("Blog1").innerHTML = text.replace("relacionamentos", "W3Schools");
