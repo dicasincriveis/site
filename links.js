@@ -1,3 +1,3 @@
 function rep() {
-            document.body.innerHTML = document.body.innerHTML.replace("relacionamentos", "Hi");
+            document.main.innerHTML = document.body.innerHTML.replace("relacionamentos", "Hi");
 }
