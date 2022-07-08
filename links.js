@@ -1,3 +1,2 @@
-function rep() {
-            document.main.innerHTML = document.body.innerHTML.replace("relacionamentos", "Hi");
-}
+let text = document.getElementById("main").innerHTML; 
+document.getElementById("main").innerHTML = text.replace("relacionamentos", "W3Schools");
