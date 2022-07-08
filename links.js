@@ -1,2 +1,3 @@
-var heo1 = document.querySelector('.post-body');
-heo1.innerText = heo1.innerText.replace('relacionamentos',"chanquadi");
+function rep() {
+            document.body.innerHTML = document.body.innerHTML.replace("relacionamentos", "Hi");
+}
