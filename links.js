@@ -1,2 +1,2 @@
-let text = document.getElementById("main").innerHTML; 
-document.getElementById("main").innerHTML = text.replace("relacionamentos", "W3Schools");
+let text = document.getElementById("meta-post").innerHTML; 
+document.getElementById("meta-post").innerHTML = text.replace("relacionamentos", "W3Schools");
