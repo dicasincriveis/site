@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
    var links = {
-      "contato aqui": "linkcontatoaqui.html",
+      "relacionamentos": "teste.html",
       "abaixo-assinado": "linkaabaixoassinado.html",
       "ajuda": "linkajuda.html",
       "linha": "linklinha.html"
