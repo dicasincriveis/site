@@ -1,5 +1,5 @@
 function censorText(){             
-    var explicit = document.getElementById("data:blog.body").innerHTML;
+    var explicit = document.getElementById("data:post.body").innerHTML;
     var clean = explicit.replace(/relacionamentos/g,"teste");
-     document.getElementById("data:blog.body").innerHTML = clean;
+     document.getElementById("data:post.body").innerHTML = clean;
 }
