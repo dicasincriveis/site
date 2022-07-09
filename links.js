@@ -1,5 +1,18 @@
-function censorText(){             
-    var explicit = document.getElementById("data:post.body").innerHTML;
-    var clean = explicit.replace(/relacionamentos/g,"teste");
-     document.getElementById("data:post.body").innerHTML = clean;
-}
+document.addEventListener("DOMContentLoaded", function(){
+   var links = {
+      "relacionamentos": "linkcontatoaqui.html",
+      "abaixo-assinado": "linkaabaixoassinado.html",
+      "ajuda": "linkajuda.html",
+      "linha": "linklinha.html"
+   }
+   
+   var bodi = document.querySelectorAll("post.body *:not(script)");
+   for(var x=0; x<bodi.length; x++){
+      var html = bodi[x].innerHTML;
+      for(var i in links){
+         var re = new RegExp("\\b(?![^<]*?>)("+i+")(?!>)", "gi");
+         html = html.replace(re, ' <a href="'+links[i]+'">$1</a>');
+      }
+      bodi[x].innerHTML = html;
+   }
+});
