@@ -1,1 +1,1 @@
-document.write("<script async='' data-uid='6c35963153' src='https://colossal-originator-9399.ck.page/6c35963153/index.js'></script>")
+document.write('<script src="https://s3.amazonaws.com/etus-leads/js/lead.js"></script><etus id="etus-yc8vi-li1da"></etus><script>    var etus = new etus({"client" : "5ngaf", "token" : "yc8vi-li1da"});</script>')
